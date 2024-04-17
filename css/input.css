@@ -1,0 +1,48 @@
+body{
+    color: white;
+    background-color: #030375;
+    font-family: "DM Sans", sans-serif;
+}
+  .logo , #home h1 ,#category h4 , .zbon, foot,sop{
+    font-family: "Oswald", sans-serif;
+}
+
+
+@media (max-width:767px) {
+  .link{
+    background-color: rgb(3 , 3, 117);
+  }
+}
+
+.migo:hover{
+  animation: 1s ease-in up-down infinite;
+}
+
+@keyframes  up-down{
+
+    50%{
+     transform: translateY(-1rem);
+    }
+/* 
+    0%,100%{
+      top: 30px;
+      }
+      50%{
+        top: 50px;
+      } */
+}
+
+.card{
+  background-color: #0606b9;
+}
+
+
+.taps li:hover,
+.taps .active{
+  background-color: yellow;
+  color: black;
+}
+   
+.dark{
+  background-color: black;
+}
