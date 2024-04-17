@@ -8,11 +8,11 @@ body{
 }
 
 
-/* @media (max-width:767px) {
+@media (max-width:767px) {
   .link{
     background-color: rgb(3 , 3, 117);
   }
-} */
+}
 
 .migo:hover{
   animation: 1s ease-in up-down infinite;
