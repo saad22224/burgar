@@ -264,3 +264,11 @@ const header = document.getElementById("header")
   localStorage.setItem("mode" , "dark")
     }
  })
+
+
+ document.addEventListener("DOMContentLoaded" , function (){
+  setTimeout(function () {
+    let overlay = document.getElementById("overlay")
+    overlay.style.display = "none"
+  }, 3000)
+ })
