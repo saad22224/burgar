@@ -272,3 +272,11 @@ const header = document.getElementById("header")
     overlay.style.display = "none"
   }, 3000)
  })
+
+
+ let datenow = new Date()
+ let copy = document.querySelector(".date")
+ 
+ copy.innerHTML =`${datenow.getFullYear()} All rights reserved`
+ console.log(copy)
+ 
